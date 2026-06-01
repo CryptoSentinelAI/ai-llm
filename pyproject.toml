@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-llm"
+version = "0.3.1"
+description = "轻量级 AI/LLM 工具库 — 多模型调用、Prompt 编排、Token 管理、RAG 检索增强"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+authors = [{name = "CryptoSentinelAI", email = "1715136863@qq.com"}]
+keywords = ["ai", "llm", "openai", "chatgpt", "rag", "prompt", "tokenizer", "chinese"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "openai>=1.0.0",
+    "tiktoken>=0.5.0",
+    "numpy>=1.24.0",
+    "httpx>=0.25.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "pytest-asyncio", "pytest-cov", "ruff"]
+
+[project.urls]
+Homepage = "https://github.com/CryptoSentinelAI/ai-llm"
+Repository = "https://github.com/CryptoSentinelAI/ai-llm"
+Issues = "https://github.com/CryptoSentinelAI/ai-llm/issues"
+
+[tool.setuptools.packages.find]
+include = ["ai_llm*"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
