@@ -7,8 +7,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/python-≥3.9-blue" alt="Python">
+  <img src="https://img.shields.io/badge/python-3.9_|_3.10_|_3.11_|_3.12-blue" alt="Python">
   <img src="https://img.shields.io/badge/license-Apache%202.0-green" alt="License">
+  <img src="https://img.shields.io/github/last-commit/CryptoSentinelAI/ai-llm" alt="Last commit">
+  <img src="https://img.shields.io/github/issues/CryptoSentinelAI/ai-llm" alt="Issues">
   <img src="https://img.shields.io/badge/version-0.3.1-orange" alt="Version">
   <img src="https://github.com/CryptoSentinelAI/ai-llm/actions/workflows/test.yml/badge.svg" alt="CI">
 </p>
