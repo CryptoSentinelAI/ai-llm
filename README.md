@@ -10,6 +10,7 @@
   <img src="https://img.shields.io/badge/python-≥3.9-blue" alt="Python">
   <img src="https://img.shields.io/badge/license-Apache%202.0-green" alt="License">
   <img src="https://img.shields.io/badge/version-0.3.1-orange" alt="Version">
+  <img src="https://github.com/CryptoSentinelAI/ai-llm/actions/workflows/test.yml/badge.svg" alt="CI">
 </p>
 
 ---
